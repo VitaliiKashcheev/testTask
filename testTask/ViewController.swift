@@ -73,8 +73,8 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! ProductCell
         
-        cell.productImage.image = UIImage(named: array[indexPath.row].link)
-        cell.codeLabel.text = array[indexPath.row].name
+        cell.productImage.image = UIImage(named: array[indexPath.row].pictureName)
+        cell.codeLabel.text = array[indexPath.row].code
         
         if selectedStatHeaders.contains(indexPath.row) {
             if storageString != nil {

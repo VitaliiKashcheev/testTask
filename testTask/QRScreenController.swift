@@ -14,8 +14,7 @@ protocol addQRStrinq_Delegate {
 }
 
 class QRScreenController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
-    
-    weak var viewController: ViewController?
+
     
     var delegate: addQRStrinq_Delegate?
     

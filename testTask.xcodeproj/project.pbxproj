@@ -15,7 +15,7 @@
 		BA34084E258BB56F005966FC /* QRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34084D258BB56F005966FC /* QRButton.swift */; };
 		BA340871258BC7E5005966FC /* QRScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA340870258BC7E5005966FC /* QRScreenController.swift */; };
 		BA340875258E059D005966FC /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA340874258E059D005966FC /* LaunchScreenController.swift */; };
-		BA340877258E1E68005966FC /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA340876258E1E68005966FC /* Dictionary.swift */; };
+		BA340877258E1E68005966FC /* RemoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA340876258E1E68005966FC /* RemoteStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		BA34084D258BB56F005966FC /* QRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRButton.swift; sourceTree = "<group>"; };
 		BA340870258BC7E5005966FC /* QRScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScreenController.swift; sourceTree = "<group>"; };
 		BA340874258E059D005966FC /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
-		BA340876258E1E68005966FC /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		BA340876258E1E68005966FC /* RemoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				BA34084B258B9601005966FC /* CellController.swift */,
 				BA34084D258BB56F005966FC /* QRButton.swift */,
 				BA340870258BC7E5005966FC /* QRScreenController.swift */,
-				BA340876258E1E68005966FC /* Dictionary.swift */,
+				BA340876258E1E68005966FC /* RemoteStorage.swift */,
 				BA340840258B7536005966FC /* Assets.xcassets */,
 				BA340845258B7536005966FC /* Info.plist */,
 				BA34083D258B7532005966FC /* testTask.xcdatamodeld */,
@@ -150,7 +150,7 @@
 				BA340871258BC7E5005966FC /* QRScreenController.swift in Sources */,
 				BA340837258B7532005966FC /* AppDelegate.swift in Sources */,
 				BA34084E258BB56F005966FC /* QRButton.swift in Sources */,
-				BA340877258E1E68005966FC /* Dictionary.swift in Sources */,
+				BA340877258E1E68005966FC /* RemoteStorage.swift in Sources */,
 				BA34084C258B9601005966FC /* CellController.swift in Sources */,
 				BA340875258E059D005966FC /* LaunchScreenController.swift in Sources */,
 			);
