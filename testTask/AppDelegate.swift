@@ -21,11 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let layout = UICollectionViewFlowLayout()
-        
         window?.rootViewController = LaunchScreenController()
         
-//        window?.rootViewController = UINavigationController(rootViewController: ViewController(collectionViewLayout: layout))
         return true
     }
 

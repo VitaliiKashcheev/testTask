@@ -55,8 +55,6 @@ class QRScreenController: UIViewController, AVCaptureMetadataOutputObjectsDelega
         guard metadataObjects.count > 0 else { return }
         if let object = metadataObjects.first as? AVMetadataMachineReadableCodeObject {
             if object.type == AVMetadataObject.ObjectType.qr {
-//                let alert = UIAlertController(title: "QR Code", message: object.stringValue, preferredStyle: .alert)
-//                alert.addAction(UIAlertAction(title: "Save", style: .default, handler: { (action) in
                 
                 guard let textScreen = object.stringValue else {
                     print("Err")
@@ -64,20 +62,13 @@ class QRScreenController: UIViewController, AVCaptureMetadataOutputObjectsDelega
                 }
                 
                 let qrStrings = QrData(qrDataString: textScreen)
-                
                 delegate?.addString(qrString: qrStrings)
-                    UIPasteboard.general.string = object.stringValue
-                    self.view.layer.sublayers?.removeLast()
-                    self.session.stopRunning()
-                navigationController?.popToRootViewController(animated: true)
-                    print(object.stringValue as Any)
-//                }))
-//
-//                alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { (action) in
-////                    print(object.stringValue)
-//                }))
+
                 
-//                present(alert, animated: true, completion: nil)
+                self.view.layer.sublayers?.removeLast()
+                self.session.stopRunning()
+                
+                navigationController?.popToRootViewController(animated: true)
             }
         }
     }
